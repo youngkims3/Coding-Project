@@ -1,0 +1,39 @@
+div{
+    border: 1px; color: black;
+
+}
+.parent{
+    background-color: rgb(96, 205, 205);
+    position: static;
+    padding: 10px;
+}
+.child{
+    background-color: rgb(180, 125, 58);
+    width: auto;
+    position: static;
+}
+#parent-relative-position{
+    position: relative;
+    top: 100px;
+    left: 100px;
+    
+}
+#child-relative-position{
+    position: relative;
+    bottom: 10px;
+    right: 100px;
+}
+
+#parent-absolute-position{
+    position: relative;
+    background-color: blueviolet;
+}
+
+#child-absolute-position{
+    position: absolute;
+    background-color: rgb(170, 67, 67);
+    left: 100px;
+}
+body{
+    background-color: rgb(91, 167, 84);
+}

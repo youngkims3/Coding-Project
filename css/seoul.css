@@ -1,0 +1,16 @@
+body{
+    color: aqua;
+    background-color: black;
+    text-align: center;
+    background-image: url(../ImagesForCozyfam/Flag_of_South_Korea.png);
+    background-size: cover;
+}
+div{
+    background-color: red;
+    text-decoration: wavy;
+    text-align: right;
+    height: 200px;
+}
+span{
+    background-color: blue;
+}
